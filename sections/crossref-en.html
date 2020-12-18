@@ -1,0 +1,1861 @@
+<h2 id="crossreference" class="list">Cross reference for CDC classes, properties and dataproperties <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+This section provides details for each class and property defined by CDC: Construction Dataset Context ontology.
+<div id="classes">
+   <h3 id="classes-headline" class="list">Classes</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#AdditionAndDeletionDistribution"
+            title="https://w3id.org/cdc#AdditionAndDeletionDistribution">addition and deletion distribution (complement)</a>
+      </li>
+      <li>
+         <a href="#AdditionDistribution" title="https://w3id.org/cdc#AdditionDistribution">addition distribution (complement)</a>
+      </li>
+      <li>
+         <a href="#ArchitecturalDesignDS" title="https://w3id.org/cdc#ArchitecturalDesignDS">architectural design dataset</a>
+      </li>
+      <li>
+         <a href="#AsBuiltDS" title="https://w3id.org/cdc#AsBuiltDS">as-built dataset</a>
+      </li>
+      <li>
+         <a href="#ConstructionPlanningDS" title="https://w3id.org/cdc#ConstructionPlanningDS">construction planning dataset</a>
+      </li>
+      <li>
+         <a href="#ConstructionProgressDS" title="https://w3id.org/cdc#ConstructionProgressDS">construction progress dataset</a>
+      </li>
+      <li>
+         <a href="#ContemporaryAsBuiltDS" title="https://w3id.org/cdc#ContemporaryAsBuiltDS">contemporary as-built dataset</a>
+      </li>
+      <li>
+         <a href="#DataManagementTag" title="https://w3id.org/cdc#DataManagementTag">data management tag</a>
+      </li>
+      <li>
+         <a href="#DefaultGraphDistribution" title="https://w3id.org/cdc#DefaultGraphDistribution">default graph distribution</a>
+      </li>
+      <li>
+         <a href="#DeletionDistribution" title="https://w3id.org/cdc#DeletionDistribution">deletion distribution (complement)</a>
+      </li>
+      <li>
+         <a href="#DesignDS" title="https://w3id.org/cdc#DesignDS">design dataset</a>
+      </li>
+      <li>
+         <a href="#DistributionRelation" title="https://w3id.org/cdc#DistributionRelation">distribution relation</a>
+      </li>
+      <li>
+         <a href="#DistributionRole" title="https://w3id.org/cdc#DistributionRole">distribution role</a>
+      </li>
+      <li>
+         <a href="#HistoricalAsBuiltDS" title="https://w3id.org/cdc#HistoricalAsBuiltDS">historical as-built dataset</a>
+      </li>
+      <li>
+         <a href="#InspectionAsBuiltDS" title="https://w3id.org/cdc#InspectionAsBuiltDS">inspection as-built dataset</a>
+      </li>
+      <li>
+         <a href="#InspectionPlanningDS" title="https://w3id.org/cdc#InspectionPlanningDS">inspection planning dataset</a>
+      </li>
+      <li>
+         <a href="#MEPDesignDS" title="https://w3id.org/cdc#MEPDesignDS">MEP design dataset</a>
+      </li>
+      <li>
+         <a href="#NamedGraphDistribution" title="https://w3id.org/cdc#NamedGraphDistribution">named graph distribution</a>
+      </li>
+      <li>
+         <a href="#OwnerRequirementsDS" title="https://w3id.org/cdc#OwnerRequirementsDS">owner requirements dataset</a>
+      </li>
+      <li>
+         <a href="#http://www.w3.org/ns/dcat#Relation" title="http://www.w3.org/ns/dcat#Relation">
+            <span>relation</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://www.w3.org/ns/dcat#Role" title="http://www.w3.org/ns/dcat#Role">
+            <span>role</span>
+         </a>
+      </li>
+      <li>
+         <a href="#StandaloneDistribution" title="https://w3id.org/cdc#StandaloneDistribution">standalone distribution</a>
+      </li>
+      <li>
+         <a href="#StructuralDesignDS" title="https://w3id.org/cdc#StructuralDesignDS">structural design dataset</a>
+      </li>
+      <li>
+         <a href="#ValidationReport" title="https://w3id.org/cdc#ValidationReport">validation report</a>
+      </li>
+   </ul>
+   <div class="entity" id="AdditionAndDeletionDistribution">
+      <h3>addition and deletion distribution (complement)<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/cdc#AdditionAndDeletionDistribution</p>
+      <div class="comment">
+         <span class="markdown">A cdc:AdditionAndDeletionDistribution is used to classify a distribution of a dataset B that complements another dataset A (connected using the cdc:complements relation). One of the two subdistributions (cdc:hasSubDistribution) of this direct distribution of dataset B is classified as cdc:AdditionDistribution, while the other is classified as cdc:DeletionDistribution.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/cdc">https://w3id.org/cdc</a>
+         </dd>
+      </dl>
+      <dl>
+         <dt>Term status</dt>
+         <dd>unstable</dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <span class="dotted" title="http://www.w3.org/ns/dcat#Distribution">distribution</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#complements" title="https://w3id.org/cdc#complements">complements</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#hasSubDistribution" title="https://w3id.org/cdc#hasSubDistribution">has sub distribution</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#standaloneOf" title="https://w3id.org/cdc#standaloneOf">standalone distribution of</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is disjoint with</dt>
+         <dd>
+            <a href="#AdditionDistribution" title="https://w3id.org/cdc#AdditionDistribution">addition distribution (complement)</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#DeletionDistribution" title="https://w3id.org/cdc#DeletionDistribution">deletion distribution (complement)</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#StandaloneDistribution" title="https://w3id.org/cdc#StandaloneDistribution">standalone distribution</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="AdditionDistribution">
+      <h3>addition distribution (complement)<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/cdc#AdditionDistribution</p>
+      <div class="comment">
+         <span class="markdown">A cdc:AdditionDistribution is used to classify a distribution of a dataset B that complements another dataset A (connected using the cdc:complements relation). The content of the addition complement distribution of dataset B should be added to the entire content of dataset A to form dataset B. When the dataset B is the result of both additions and deletions on dataset A, dataset B should have a direct distribution with two subdistributions (cdc:hasSubDistribution): one containing triples to be deleted (cdc:DeletetionDistribution) from the source dataset and another containing triples that should be added (cdc:AdditionDistribution) to the source dataset.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/cdc">https://w3id.org/cdc</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <span class="dotted" title="http://www.w3.org/ns/dcat#Distribution">distribution</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#complements" title="https://w3id.org/cdc#complements">complements</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#hasSubDistribution" title="https://w3id.org/cdc#hasSubDistribution">has sub distribution</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#standaloneOf" title="https://w3id.org/cdc#standaloneOf">standalone distribution of</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is disjoint with</dt>
+         <dd>
+            <a href="#AdditionAndDeletionDistribution"
+               title="https://w3id.org/cdc#AdditionAndDeletionDistribution">addition and deletion distribution (complement)</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#DeletionDistribution" title="https://w3id.org/cdc#DeletionDistribution">deletion distribution (complement)</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#StandaloneDistribution" title="https://w3id.org/cdc#StandaloneDistribution">standalone distribution</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="ArchitecturalDesignDS">
+      <h3>architectural design dataset<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/cdc#ArchitecturalDesignDS</p>
+      <div class="comment">
+         <span class="markdown">A dataset describing a (part of a) planned construction that is the result of an architectural design process.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/cdc">https://w3id.org/cdc</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#DesignDS" title="https://w3id.org/cdc#DesignDS">design dataset</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="AsBuiltDS">
+      <h3>as-built dataset<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/cdc#AsBuiltDS</p>
+      <div class="comment">
+         <span class="markdown">A construction dataset reflecting the physical as-built situation at a certain moment in time (snapshot or a period of time), e.g. before an intervention, during an intervention (progress monitoring) or after an intervention. Use its subclasses to be more specific about the type of as-built situation.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/cdc">https://w3id.org/cdc</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <span class="dotted" title="http://www.w3.org/ns/dcat#Dataset">dataset</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>has sub-classes</dt>
+         <dd>
+            <a href="#ConstructionProgressDS" title="https://w3id.org/cdc#ConstructionProgressDS">construction progress dataset</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#ContemporaryAsBuiltDS" title="https://w3id.org/cdc#ContemporaryAsBuiltDS">contemporary as-built dataset</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#HistoricalAsBuiltDS" title="https://w3id.org/cdc#HistoricalAsBuiltDS">historical as-built dataset</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#InspectionAsBuiltDS" title="https://w3id.org/cdc#InspectionAsBuiltDS">inspection as-built dataset</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#snapshotOf" title="https://w3id.org/cdc#snapshotOf">snapshot dataset of</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#requirementsRelatedTo" title="https://w3id.org/cdc#requirementsRelatedTo">requirements related to </a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#snapshotOf" title="https://w3id.org/cdc#snapshotOf">snapshot dataset of</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is disjoint with</dt>
+         <dd>
+            <a href="#DesignDS" title="https://w3id.org/cdc#DesignDS">design dataset</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#OwnerRequirementsDS" title="https://w3id.org/cdc#OwnerRequirementsDS">owner requirements dataset</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="ConstructionPlanningDS">
+      <h3>construction planning dataset<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/cdc#ConstructionPlanningDS</p>
+      <div class="comment">
+         <span class="markdown">A construction planning dataset, made by a designer or contractor. This type of dataset typically contains construction tasks (cto:Task) that are planned.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/cdc">https://w3id.org/cdc</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#DesignDS" title="https://w3id.org/cdc#DesignDS">design dataset</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="ConstructionProgressDS">
+      <h3>construction progress dataset<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/cdc#ConstructionProgressDS</p>
+      <div class="comment">
+         <span class="markdown">A construction progress dataset, maintained by a construction site supervisor selected by the owner (e.g. the architect) or a contractor. This type of dataset contains construction tasks (cto:Task) that are already executed. It can be used on a dataset already classified as cdc:ContemporaryAsBuiltDS (during construction progress monitoring of a running or relatively recent project) or cdc:HistoricalAsBuiltDS (for describing the results of a historical study regarding the construction process).</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/cdc">https://w3id.org/cdc</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#AsBuiltDS" title="https://w3id.org/cdc#AsBuiltDS">as-built dataset</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="ContemporaryAsBuiltDS">
+      <h3>contemporary as-built dataset<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/cdc#ContemporaryAsBuiltDS</p>
+      <div class="comment">
+         <span class="markdown">A contemporary as-built dataset depicts the construction as-is based on directly verifiable facts (e.g. a geometry survey). It typically forms the basis for managing maintenance information or construction progress monitoring. It can also be the starting point for a construction project.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/cdc">https://w3id.org/cdc</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#AsBuiltDS" title="https://w3id.org/cdc#AsBuiltDS">as-built dataset</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is disjoint with</dt>
+         <dd>
+            <a href="#HistoricalAsBuiltDS" title="https://w3id.org/cdc#HistoricalAsBuiltDS">historical as-built dataset</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="DataManagementTag">
+      <h3>data management tag<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/cdc#DataManagementTag</p>
+      <div class="comment">
+         <span class="markdown">A tag that is linked to a DCAT catalog, dataset, distribution or data service instance node using the cdc:hasDataManagementTag property. CDC predefines three instances of this class, i.e. cdc:incoming, cdc:internal and cdc:outgoing. Each catalog, dataset, distribution or data service can only have one tag that is not supposed to change over the lifetime of the described resource unless it considers a dataset (that is not a catalog). When necessary, qualified relations between DCAT entities can also get a tag.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/cdc">https://w3id.org/cdc</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#hasDataManagementTag" title="https://w3id.org/cdc#hasDataManagementTag">has data management tag</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>has members</dt>
+         <dd>
+            <a href="#incoming" title="https://w3id.org/cdc#incoming">incoming</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#internal" title="https://w3id.org/cdc#internal">internal</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#outgoing" title="https://w3id.org/cdc#outgoing">outgoing</a>
+            <sup class="type-ni" title="named individual">ni</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="DefaultGraphDistribution">
+      <h3>default graph distribution<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/cdc#DefaultGraphDistribution</p>
+      <div class="comment">
+         <span class="markdown">A DCAT distribution of an RDF dataset, where the content of the dataset can be found in the default graph of an RDF quad file (connected with dcat:downloadURL) or quadstore (connected with dcat:accessService).</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/cdc">https://w3id.org/cdc</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <span class="dotted" title="http://www.w3.org/ns/dcat#Distribution">distribution</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="DeletionDistribution">
+      <h3>deletion distribution (complement)<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/cdc#DeletionDistribution</p>
+      <div class="comment">
+         <span class="markdown">A cdc:DeletionDistribution is used to classify a distribution of a dataset B that complements another dataset A (connected using the cdc:complements relation). The content of the deletion complement distribution of dataset B should be subtracted from the entire content of dataset A to form dataset B. When the dataset B is the result of both additions and deletions on dataset A, dataset B should have a direct distribution with two subdistributions (cdc:hasSubDistribution): one containing triples to be deleted (cdc:DeletetionDistribution) from the source dataset and another containing triples that should be added (cdc:AdditionDistribution) to the source dataset.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/cdc">https://w3id.org/cdc</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <span class="dotted" title="http://www.w3.org/ns/dcat#Distribution">distribution</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#complements" title="https://w3id.org/cdc#complements">complements</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#hasSubDistribution" title="https://w3id.org/cdc#hasSubDistribution">has sub distribution</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#standaloneOf" title="https://w3id.org/cdc#standaloneOf">standalone distribution of</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is disjoint with</dt>
+         <dd>
+            <a href="#AdditionAndDeletionDistribution"
+               title="https://w3id.org/cdc#AdditionAndDeletionDistribution">addition and deletion distribution (complement)</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#AdditionDistribution" title="https://w3id.org/cdc#AdditionDistribution">addition distribution (complement)</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#StandaloneDistribution" title="https://w3id.org/cdc#StandaloneDistribution">standalone distribution</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="DesignDS">
+      <h3>design dataset<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/cdc#DesignDS</p>
+      <div class="comment">
+         <span class="markdown">In contrast to an as-built dataset (cdc:AsBuiltDS), this type of construction dataset describes a future situation that is the outcome of some type of design process. Use its subclasses to be more specific about the type of design/planning.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/cdc">https://w3id.org/cdc</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <span class="dotted" title="http://www.w3.org/ns/dcat#Dataset">dataset</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>has sub-classes</dt>
+         <dd>
+            <a href="#MEPDesignDS" title="https://w3id.org/cdc#MEPDesignDS">MEP design dataset</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#ArchitecturalDesignDS" title="https://w3id.org/cdc#ArchitecturalDesignDS">architectural design dataset</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#ConstructionPlanningDS" title="https://w3id.org/cdc#ConstructionPlanningDS">construction planning dataset</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#InspectionPlanningDS" title="https://w3id.org/cdc#InspectionPlanningDS">inspection planning dataset</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#StructuralDesignDS" title="https://w3id.org/cdc#StructuralDesignDS">structural design dataset</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#alternative" title="https://w3id.org/cdc#alternative">alternative</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#snapshotOf" title="https://w3id.org/cdc#snapshotOf">snapshot dataset of</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#alternative" title="https://w3id.org/cdc#alternative">alternative</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#snapshotOf" title="https://w3id.org/cdc#snapshotOf">snapshot dataset of</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is disjoint with</dt>
+         <dd>
+            <a href="#AsBuiltDS" title="https://w3id.org/cdc#AsBuiltDS">as-built dataset</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#OwnerRequirementsDS" title="https://w3id.org/cdc#OwnerRequirementsDS">owner requirements dataset</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="DistributionRelation">
+      <h3>distribution relation<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/cdc#DistributionRelation</p>
+      <div class="comment">
+         <span class="markdown">An instance of this class represents a qualified relation from a dataset distribution to another DCAT entity. It is connected to a cdc:DistributionRole instance via cdc:hadDistributionRole.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/cdc">https://w3id.org/cdc</a>
+         </dd>
+      </dl>
+      <dl>
+         <dt>Term status</dt>
+         <dd>unstable</dd>
+      </dl>
+      <dl class="description">
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#hadDistributionRole" title="https://w3id.org/cdc#hadDistributionRole">had distribution role</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#hasDataManagementTag" title="https://w3id.org/cdc#hasDataManagementTag">has data management tag</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#versionSourceDS" title="https://w3id.org/cdc#versionSourceDS">version of source dataset</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#versionTargetDS" title="https://w3id.org/cdc#versionTargetDS">version of target dataset</a>
+            <sup class="type-dp" title="data property">dp</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#qualifiedDistributionRelation"
+               title="https://w3id.org/cdc#qualifiedDistributionRelation">a qualified distribution relation </a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is disjoint with</dt>
+         <dd>
+            <a href="#http://www.w3.org/ns/dcat#Relation" title="http://www.w3.org/ns/dcat#Relation">relation</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="DistributionRole">
+      <h3>distribution role<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/cdc#DistributionRole</p>
+      <div class="comment">
+         <span class="markdown">A distribution role defines the kind of qualified relation between two dataset distributions.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/cdc">https://w3id.org/cdc</a>
+         </dd>
+      </dl>
+      <dl>
+         <dt>Term status</dt>
+         <dd>unstable</dd>
+      </dl>
+      <dl class="description">
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#hadDistributionRole" title="https://w3id.org/cdc#hadDistributionRole">had distribution role</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>has members</dt>
+         <dd>
+            <a href="#complementLink" title="https://w3id.org/cdc#complementLink">complement link</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#copiedDistributionLink" title="https://w3id.org/cdc#copiedDistributionLink">copied distribution of link</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#standaloneLink" title="https://w3id.org/cdc#standaloneLink">standalone link</a>
+            <sup class="type-ni" title="named individual">ni</sup>
+         </dd>
+         <dt>is disjoint with</dt>
+         <dd>
+            <a href="#http://www.w3.org/ns/dcat#Role" title="http://www.w3.org/ns/dcat#Role">role</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="HistoricalAsBuiltDS">
+      <h3>historical as-built dataset<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/cdc#HistoricalAsBuiltDS</p>
+      <div class="comment">
+         <span class="markdown">A historical as-built dataset contains a description of a construction in the past based on historical research.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/cdc">https://w3id.org/cdc</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#AsBuiltDS" title="https://w3id.org/cdc#AsBuiltDS">as-built dataset</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#alternative" title="https://w3id.org/cdc#alternative">alternative</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#alternative" title="https://w3id.org/cdc#alternative">alternative</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is disjoint with</dt>
+         <dd>
+            <a href="#ContemporaryAsBuiltDS" title="https://w3id.org/cdc#ContemporaryAsBuiltDS">contemporary as-built dataset</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="InspectionAsBuiltDS">
+      <h3>inspection as-built dataset<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/cdc#InspectionAsBuiltDS</p>
+      <div class="comment">
+         <span class="markdown">An inspection as-built dataset, created by a construction inspector. This type of dataset contains detailed information about inspections, including inspection tasks (cto:InspectionTask) that are already executed. It can be used on a dataset already classified as cdc:ContemporaryAsBuiltDS.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/cdc">https://w3id.org/cdc</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#AsBuiltDS" title="https://w3id.org/cdc#AsBuiltDS">as-built dataset</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="InspectionPlanningDS">
+      <h3>inspection planning dataset<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/cdc#InspectionPlanningDS</p>
+      <div class="comment">
+         <span class="markdown">An inspection planning dataset, made by a construction inspector. This type of dataset typically contains inspection tasks (cto:InspectionTask, subclasses of cto:Task) that are planned, indicating which parts of the construction will be inspected.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/cdc">https://w3id.org/cdc</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#DesignDS" title="https://w3id.org/cdc#DesignDS">design dataset</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="MEPDesignDS">
+      <h3>MEP design dataset<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/cdc#MEPDesignDS</p>
+      <div class="comment">
+         <span class="markdown">A dataset describing a (part of a) planned construction that is the result of a MEP engineering (mechanical, electrical and plumbing) design process.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/cdc">https://w3id.org/cdc</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#DesignDS" title="https://w3id.org/cdc#DesignDS">design dataset</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="NamedGraphDistribution">
+      <h3>named graph distribution<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/cdc#NamedGraphDistribution</p>
+      <div class="comment">
+         <span class="markdown">A DCAT distribution of an RDF dataset, where the content of the dataset can be found in a single named graph (specified using cdc:graphURI) of an RDF quad file (connected with dcat:downloadURL) or quadstore (connected with dcat:accessService).</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/cdc">https://w3id.org/cdc</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <span class="dotted" title="http://www.w3.org/ns/dcat#Distribution">distribution</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#graphURI" title="https://w3id.org/cdc#graphURI">a (named) graph URI</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="OwnerRequirementsDS">
+      <h3>owner requirements dataset<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/cdc#OwnerRequirementsDS</p>
+      <div class="comment">
+         <span class="markdown">A dataset describing the requirements imposed by the construction owner at the start of a construction project. Such a dataset, when using RDF, can for example be described using SHACL shapes or a graph describing the components and spatial zones (and their properties) that should be provided in the delivered construction.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/cdc">https://w3id.org/cdc</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <span class="dotted" title="http://www.w3.org/ns/dcat#Dataset">dataset</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#requirementsRelatedTo" title="https://w3id.org/cdc#requirementsRelatedTo">requirements related to </a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is disjoint with</dt>
+         <dd>
+            <a href="#AsBuiltDS" title="https://w3id.org/cdc#AsBuiltDS">as-built dataset</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#DesignDS" title="https://w3id.org/cdc#DesignDS">design dataset</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="http://www.w3.org/ns/dcat#Relation">
+      <h3>relation<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/ns/dcat#Relation</p>
+      <dl class="description">
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#fulfilsRequirements" title="https://w3id.org/cdc#fulfilsRequirements">fulfils requirements</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#hasDataManagementTag" title="https://w3id.org/cdc#hasDataManagementTag">has data management tag</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#hasValidationReport" title="https://w3id.org/cdc#hasValidationReport">has validation report</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#versionSourceDS" title="https://w3id.org/cdc#versionSourceDS">version of source dataset</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#versionTargetDS" title="https://w3id.org/cdc#versionTargetDS">version of target dataset</a>
+            <sup class="type-dp" title="data property">dp</sup>
+         </dd>
+         <dt>is disjoint with</dt>
+         <dd>
+            <a href="#DistributionRelation" title="https://w3id.org/cdc#DistributionRelation">distribution relation</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="http://www.w3.org/ns/dcat#Role">
+      <h3>role<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/ns/dcat#Role</p>
+      <dl class="description">
+         <dt>has members</dt>
+         <dd>
+            <a href="#requirementLink" title="https://w3id.org/cdc#requirementLink">requirement link</a>
+            <sup class="type-ni" title="named individual">ni</sup>
+         </dd>
+         <dt>is disjoint with</dt>
+         <dd>
+            <a href="#DistributionRole" title="https://w3id.org/cdc#DistributionRole">distribution role</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="StandaloneDistribution">
+      <h3>standalone distribution<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/cdc#StandaloneDistribution</p>
+      <div class="comment">
+         <span class="markdown">A cdc:StandaloneDistribution is applied to classify a distribution as being standalone, meaning that it does not complement to the content of another dataset. Consequently, the content served by this distribution is equal to the entire content represented by its dataset. If a standalone distribution is derived from a complementing distribution of the same dataset, it can be connected using the cdc:standaloneOf relation.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/cdc">https://w3id.org/cdc</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <span class="dotted" title="http://www.w3.org/ns/dcat#Distribution">distribution</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#standaloneOf" title="https://w3id.org/cdc#standaloneOf">standalone distribution of</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is disjoint with</dt>
+         <dd>
+            <a href="#AdditionAndDeletionDistribution"
+               title="https://w3id.org/cdc#AdditionAndDeletionDistribution">addition and deletion distribution (complement)</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#AdditionDistribution" title="https://w3id.org/cdc#AdditionDistribution">addition distribution (complement)</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#DeletionDistribution" title="https://w3id.org/cdc#DeletionDistribution">deletion distribution (complement)</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="StructuralDesignDS">
+      <h3>structural design dataset<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/cdc#StructuralDesignDS</p>
+      <div class="comment">
+         <span class="markdown">A dataset describing a (part of a) planned construction that is the result of a structural engineering design process.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/cdc">https://w3id.org/cdc</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#DesignDS" title="https://w3id.org/cdc#DesignDS">design dataset</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="ValidationReport">
+      <h3>validation report<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/cdc#ValidationReport</p>
+      <div class="comment">
+         <span class="markdown">An instance of this class is used to describe the result of a comparison between a design, a construction planning or a finalized as-built dataset and a dataset with requirements it tries to fulfill. The validation report node can be equal to the top node of a SHACL validation report RDF graph (e.g. owner requirements vs. design), or it can point to either two RDF datasets (cdc:onlyInSourceDS or cdc:onlyInTargetDS) containing the result of a subtraction (e.g. design vs. as-built) or a free text explanation of the comparison result (rdfs:comment).</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/cdc">https://w3id.org/cdc</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#onlyInSourceDS" title="https://w3id.org/cdc#onlyInSourceDS">only in source dataset</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#onlyInTargetDS" title="https://w3id.org/cdc#onlyInTargetDS">only in target dataset </a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#hasValidationReport" title="https://w3id.org/cdc#hasValidationReport">has validation report</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+</div><div id="objectproperties">
+   <h3 id="properties" class="list">Object Properties</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#graphURI" title="https://w3id.org/cdc#graphURI">a (named) graph URI</a>
+      </li>
+      <li>
+         <a href="#qualifiedDistributionRelation"
+            title="https://w3id.org/cdc#qualifiedDistributionRelation">a qualified distribution relation </a>
+      </li>
+      <li>
+         <a href="#alternative" title="https://w3id.org/cdc#alternative">alternative</a>
+      </li>
+      <li>
+         <a href="#complements" title="https://w3id.org/cdc#complements">complements</a>
+      </li>
+      <li>
+         <a href="#copiedDistributionOf" title="https://w3id.org/cdc#copiedDistributionOf">copied distribution of</a>
+      </li>
+      <li>
+         <a href="#hadDistributionRole" title="https://w3id.org/cdc#hadDistributionRole">had distribution role</a>
+      </li>
+      <li>
+         <a href="#hasDataManagementTag" title="https://w3id.org/cdc#hasDataManagementTag">has data management tag</a>
+      </li>
+      <li>
+         <a href="#hasSubDistribution" title="https://w3id.org/cdc#hasSubDistribution">has sub distribution</a>
+      </li>
+      <li>
+         <a href="#hasValidationReport" title="https://w3id.org/cdc#hasValidationReport">has validation report</a>
+      </li>
+      <li>
+         <a href="#onlyInSourceDS" title="https://w3id.org/cdc#onlyInSourceDS">only in source dataset</a>
+      </li>
+      <li>
+         <a href="#onlyInTargetDS" title="https://w3id.org/cdc#onlyInTargetDS">only in target dataset </a>
+      </li>
+      <li>
+         <a href="#http://www.w3.org/ns/dcat#qualifiedRelation" title="http://www.w3.org/ns/dcat#qualifiedRelation">
+            <span>qualified relation</span>
+         </a>
+      </li>
+      <li>
+         <a href="#requirementsRelatedTo" title="https://w3id.org/cdc#requirementsRelatedTo">requirements related to </a>
+      </li>
+      <li>
+         <a href="#snapshotOf" title="https://w3id.org/cdc#snapshotOf">snapshot dataset of</a>
+      </li>
+      <li>
+         <a href="#standaloneOf" title="https://w3id.org/cdc#standaloneOf">standalone distribution of</a>
+      </li>
+   </ul>
+   <div class="entity" id="graphURI">
+      <h3>a (named) graph URI<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/cdc#graphURI</p>
+      <div class="comment">
+         <span class="markdown">The URI of the named graph related to a cdc:NamedGraphDistribution.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/cdc">https://w3id.org/cdc</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#NamedGraphDistribution" title="https://w3id.org/cdc#NamedGraphDistribution">named graph distribution</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="qualifiedDistributionRelation">
+      <h3>a qualified distribution relation <sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/cdc#qualifiedDistributionRelation</p>
+      <div class="comment">
+         <span class="markdown">A property to connect a source distribution to an instance of cdc:DistributionRelation, to form a qualified relation towards another DCAT entity.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/cdc">https://w3id.org/cdc</a>
+         </dd>
+      </dl>
+      <dl>
+         <dt>Term status</dt>
+         <dd>unstable</dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/ns/dcat#Distribution">distribution</span>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#DistributionRelation" title="https://w3id.org/cdc#DistributionRelation">distribution relation</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="alternative">
+      <h3>alternative<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/cdc#alternative</p>
+      <div class="comment">
+         <span class="markdown">A property to directly connect a dataset to another dataset that proposes an alternative for the same construction context. This means that there is an overlap between the contexts of both datasets such as the construction described, the content type (e.g. two alternative designs (cdc:DesignDS) or two historical as built situations based on different sources (cdc:HistoricalAsBuiltDS)) and/or the timing. In the case of two alternative designs, the related owner requirements should be the same. When considering two alternative historical as-built situations, the temporal context should have an overlap.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/cdc">https://w3id.org/cdc</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <p>
+            <strong>has characteristics:</strong> symmetric</p>
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/ns/dcat#Dataset">dataset</span>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>domain includes</dt>
+            <dd>
+               <a href="#DesignDS" title="https://w3id.org/cdc#DesignDS">design dataset</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>
+               <a href="#HistoricalAsBuiltDS" title="https://w3id.org/cdc#HistoricalAsBuiltDS">historical as-built dataset</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/ns/dcat#Dataset">dataset</span>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>range includes</dt>
+            <dd>
+               <a href="#DesignDS" title="https://w3id.org/cdc#DesignDS">design dataset</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>
+               <a href="#HistoricalAsBuiltDS" title="https://w3id.org/cdc#HistoricalAsBuiltDS">historical as-built dataset</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="complements">
+      <h3>complements<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/cdc#complements</p>
+      <div class="comment">
+         <span class="markdown">A property to directly connect a snapshot dataset (temporal context represents a single moment, dcat:startDate and dcat:endDate are equal to each other) to a dataset that contains tasks (temporal context represents a period).</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/cdc">https://w3id.org/cdc</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/ns/dcat#Distribution">distribution</span>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>domain includes</dt>
+            <dd>
+               <a href="#AdditionAndDeletionDistribution"
+                  title="https://w3id.org/cdc#AdditionAndDeletionDistribution">addition and deletion distribution (complement)</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>
+               <a href="#AdditionDistribution" title="https://w3id.org/cdc#AdditionDistribution">addition distribution (complement)</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>
+               <a href="#DeletionDistribution" title="https://w3id.org/cdc#DeletionDistribution">deletion distribution (complement)</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/ns/dcat#Dataset">dataset</span>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="copiedDistributionOf">
+      <h3>copied distribution of<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/cdc#copiedDistributionOf</p>
+      <div class="comment">
+         <span class="markdown">A property to directly connect two distributions of the same dataset, where the source distribution is a content-wise copy of the target distribution. Examples are a received dataset accompanied by an incoming distribution. The content served by this incoming distribution can be copied to an internal distribution of the same dataset to improve accessability.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/cdc">https://w3id.org/cdc</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/ns/dcat#Distribution">distribution</span>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/ns/dcat#Distribution">distribution</span>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hadDistributionRole">
+      <h3>had distribution role<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/cdc#hadDistributionRole</p>
+      <div class="comment">
+         <span class="markdown">A property to connect an instance of cdc:DistributionRelation to an instance of cdc:DistributionRole. The object of this property defines the type of the qualified distribution relation (cdc:qualifiedDistributionRelation) between a source distribution and another target DCAT entity.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/cdc">https://w3id.org/cdc</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#DistributionRelation" title="https://w3id.org/cdc#DistributionRelation">distribution relation</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#DistributionRole" title="https://w3id.org/cdc#DistributionRole">distribution role</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hasDataManagementTag">
+      <h3>has data management tag<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/cdc#hasDataManagementTag</p>
+      <div class="comment">
+         <span class="markdown">Connects a DCAT catalog, dataset, distribution, data service or qualified relation (cdc:DistributionRelation or dcat:Relation) to exactly one of the following predefined data management tags: cdc:internal, cdc:incoming or cdc:outgoing.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/cdc">https://w3id.org/cdc</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>domain includes</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/ns/dcat#Catalog">catalog</span>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/ns/dcat#DataService">data service</span>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/ns/dcat#Dataset">dataset</span>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/ns/dcat#Distribution">distribution</span>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>
+               <a href="#http://www.w3.org/ns/dcat#Relation" title="http://www.w3.org/ns/dcat#Relation">relation</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>
+               <a href="#DistributionRelation" title="https://w3id.org/cdc#DistributionRelation">distribution relation</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#DataManagementTag" title="https://w3id.org/cdc#DataManagementTag">data management tag</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hasSubDistribution">
+      <h3>has sub distribution<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/cdc#hasSubDistribution</p>
+      <div class="comment">
+         <span class="markdown">A property to connect two dcat:Distribution instances of a dataset, where the object node (instance of cdc:AdditionDistribution or cdc:DeletionDistribtion) is the sub distribution of the subject node (instance of class cdc:AdditionAndDeletionDistribution). A subdistribution is only defined when a dataset distribution complenents another dataset and the complement exists of an addition and a deletion part.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/cdc">https://w3id.org/cdc</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#AdditionAndDeletionDistribution"
+                  title="https://w3id.org/cdc#AdditionAndDeletionDistribution">addition and deletion distribution (complement)</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/ns/dcat#Distribution">distribution</span>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>range includes</dt>
+            <dd>
+               <a href="#AdditionDistribution" title="https://w3id.org/cdc#AdditionDistribution">addition distribution (complement)</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>
+               <a href="#DeletionDistribution" title="https://w3id.org/cdc#DeletionDistribution">deletion distribution (complement)</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hasValidationReport">
+      <h3>has validation report<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/cdc#hasValidationReport</p>
+      <div class="comment">
+         <span class="markdown">A property connecting a qualified relation between two datasets (instance of dcat:Relation) with cdc:requirementLink as role to a node representing the validation report (instance of cdc:ValidationReport).</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/cdc">https://w3id.org/cdc</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.w3.org/ns/dcat#Relation" title="http://www.w3.org/ns/dcat#Relation">relation</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#ValidationReport" title="https://w3id.org/cdc#ValidationReport">validation report</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="onlyInSourceDS">
+      <h3>only in source dataset<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/cdc#onlyInSourceDS</p>
+      <div class="comment">
+         <span class="markdown">When the validation is done by comparing a descriptive RDF dataset A (source) containing the proposed design or executed construction to an RDF dataset B (target) containing the requirements, a diff is calculated between the two datasets. The triples that are only available in dataset A should be contained in a dataset that is connected using this property.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/cdc">https://w3id.org/cdc</a>
+         </dd>
+      </dl>
+      <dl>
+         <dt>Term status</dt>
+         <dd>unstable</dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#ValidationReport" title="https://w3id.org/cdc#ValidationReport">validation report</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/ns/dcat#Dataset">dataset</span>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="onlyInTargetDS">
+      <h3>only in target dataset <sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/cdc#onlyInTargetDS</p>
+      <div class="comment">
+         <span class="markdown">When the validation is done by comparing a descriptive RDF dataset A (source) containing the proposed design or executed construction to an RDF dataset B (target) containing the requirements, a diff is calculated between the two datasets. The triples that are only available in dataset B should be contained in a dataset that is connected using this property.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/cdc">https://w3id.org/cdc</a>
+         </dd>
+      </dl>
+      <dl>
+         <dt>Term status</dt>
+         <dd>unstable</dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#ValidationReport" title="https://w3id.org/cdc#ValidationReport">validation report</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/ns/dcat#Dataset">dataset</span>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.w3.org/ns/dcat#qualifiedRelation">
+      <h3>qualified relation<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/ns/dcat#qualifiedRelation</p>
+   </div>
+   <div class="entity" id="requirementsRelatedTo">
+      <h3>requirements related to <sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/cdc#requirementsRelatedTo</p>
+      <div class="comment">
+         <span class="markdown">A direct connection between owner requirements (cdc:OwnerRequirementsDS) and the as-built situation (cdc:AsBuiltDS or subclasses) before the start of a possible intervention.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/cdc">https://w3id.org/cdc</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#OwnerRequirementsDS" title="https://w3id.org/cdc#OwnerRequirementsDS">owner requirements dataset</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#AsBuiltDS" title="https://w3id.org/cdc#AsBuiltDS">as-built dataset</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="snapshotOf">
+      <h3>snapshot dataset of<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/cdc#snapshotOf</p>
+      <div class="comment">
+         <span class="markdown">A property to directly connect a snapshot dataset (temporal context represents a single moment, dcat:startDate and dcat:endDate are equal to each other) to a dataset that contains tasks (temporal context represents a period).</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/cdc">https://w3id.org/cdc</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/ns/dcat#Dataset">dataset</span>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>domain includes</dt>
+            <dd>
+               <a href="#AsBuiltDS" title="https://w3id.org/cdc#AsBuiltDS">as-built dataset</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>
+               <a href="#DesignDS" title="https://w3id.org/cdc#DesignDS">design dataset</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/ns/dcat#Dataset">dataset</span>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>range includes</dt>
+            <dd>
+               <a href="#AsBuiltDS" title="https://w3id.org/cdc#AsBuiltDS">as-built dataset</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>
+               <a href="#DesignDS" title="https://w3id.org/cdc#DesignDS">design dataset</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="standaloneOf">
+      <h3>standalone distribution of<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/cdc#standaloneOf</p>
+      <div class="comment">
+         <span class="markdown">A property to directly connect a standalone distribution to a complementing distribution. Both distributions are serving the same dataset.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/cdc">https://w3id.org/cdc</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#StandaloneDistribution" title="https://w3id.org/cdc#StandaloneDistribution">standalone distribution</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/ns/dcat#Distribution">distribution</span>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>range includes</dt>
+            <dd>
+               <a href="#AdditionAndDeletionDistribution"
+                  title="https://w3id.org/cdc#AdditionAndDeletionDistribution">addition and deletion distribution (complement)</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>
+               <a href="#AdditionDistribution" title="https://w3id.org/cdc#AdditionDistribution">addition distribution (complement)</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>
+               <a href="#DeletionDistribution" title="https://w3id.org/cdc#DeletionDistribution">deletion distribution (complement)</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+</div><div id="dataproperties">
+   <h3 id="dataproperties-headline" class="list">Data Properties</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#distributedDatasetVersion" title="https://w3id.org/cdc#distributedDatasetVersion">distributed dataset version</a>
+      </li>
+      <li>
+         <a href="#fulfilsRequirements" title="https://w3id.org/cdc#fulfilsRequirements">fulfils requirements</a>
+      </li>
+      <li>
+         <a href="#versionSourceDS" title="https://w3id.org/cdc#versionSourceDS">version of source dataset</a>
+      </li>
+      <li>
+         <a href="#versionTargetDS" title="https://w3id.org/cdc#versionTargetDS">version of target dataset</a>
+      </li>
+   </ul>
+   <div class="entity" id="distributedDatasetVersion">
+      <h3>distributed dataset version<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/cdc#distributedDatasetVersion</p>
+      <div class="comment">
+         <span class="markdown">Connects a distribution to the version of the dataset it distributes. The dataset version can be identified via a dateTime or a string identifier.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/cdc">https://w3id.org/cdc</a>
+         </dd>
+      </dl>
+      <dl>
+         <dt>Term status</dt>
+         <dd>unstable</dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/ns/dcat#Distribution">distribution</span>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>range includes</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#dateTime">date time</span>
+            </dd>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#string">string</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="fulfilsRequirements">
+      <h3>fulfils requirements<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/cdc#fulfilsRequirements</p>
+      <div class="comment">
+         <span class="markdown">A Boolean property to assert if a certain set of requirements contained in a dataset is fulfilled by another dataset. It should only be used on instances of dcat:Relation with a dcat:hadRole property pointing to cdc:requirementLink.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/cdc">https://w3id.org/cdc</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.w3.org/ns/dcat#Relation" title="http://www.w3.org/ns/dcat#Relation">relation</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#boolean">boolean</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="versionSourceDS">
+      <h3>version of source dataset<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/cdc#versionSourceDS</p>
+      <div class="comment">
+         <span class="markdown">Connects a qualified relation between datasets (instance of dcat:Relation) and/or distributions of a dataset (instance of cdc:DistributionRelation) with a version identifier of the source dataset or the dataset served by the source distribution. The dataset version can be identified via a dateTime or a string identifier.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/cdc">https://w3id.org/cdc</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>domain includes</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/ns/dcat#Distribution">distribution</span>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>
+               <a href="#http://www.w3.org/ns/dcat#Relation" title="http://www.w3.org/ns/dcat#Relation">relation</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>
+               <a href="#DistributionRelation" title="https://w3id.org/cdc#DistributionRelation">distribution relation</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>range includes</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#dateTime">date time</span>
+            </dd>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#string">string</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="versionTargetDS">
+      <h3>version of target dataset<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/cdc#versionTargetDS</p>
+      <div class="comment">
+         <span class="markdown">Connects a qualified relation between datasets (instance of dcat:Relation) and/or distributions of a dataset (instance of cdc:DistributionRelation) with a version identifier of the target dataset or the dataset served by the target distribution. The dataset version can be identified via a dateTime or a string identifier.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/cdc">https://w3id.org/cdc</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>domain includes</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/ns/dcat#Distribution">distribution</span>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>
+               <a href="#http://www.w3.org/ns/dcat#Relation" title="http://www.w3.org/ns/dcat#Relation">relation</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>
+               <a href="#DistributionRelation" title="https://w3id.org/cdc#DistributionRelation">distribution relation</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>range includes</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#dateTime">date time</span>
+            </dd>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#string">string</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+</div><div id="namedindividuals">
+   <h3 id="namedindividuals" class="list">Named Individuals</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#" title="https://w3id.org/cdc">
+            <span>cdc</span>
+         </a>
+      </li>
+      <li>
+         <a href="#complementLink" title="https://w3id.org/cdc#complementLink">complement link</a>
+      </li>
+      <li>
+         <a href="#copiedDistributionLink" title="https://w3id.org/cdc#copiedDistributionLink">copied distribution of link</a>
+      </li>
+      <li>
+         <a href="#incoming" title="https://w3id.org/cdc#incoming">incoming</a>
+      </li>
+      <li>
+         <a href="#internal" title="https://w3id.org/cdc#internal">internal</a>
+      </li>
+      <li>
+         <a href="#outgoing" title="https://w3id.org/cdc#outgoing">outgoing</a>
+      </li>
+      <li>
+         <a href="#requirementLink" title="https://w3id.org/cdc#requirementLink">requirement link</a>
+      </li>
+      <li>
+         <a href="#standaloneLink" title="https://w3id.org/cdc#standaloneLink">standalone link</a>
+      </li>
+   </ul>
+   <div class="entity" id="">
+      <h3>cdc<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/cdc</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://purl.org/vocommons/voaf#Vocabulary">vocabulary</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="complementLink">
+      <h3>complement link<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/cdc#complementLink</p>
+      <div class="comment">
+         <span class="markdown">A role of a qualified relation between a distribution of a dataset B that complements another dataset A, where the source distribution (subject of cdc:qualifiedDistributionRelation) complements the target dataset (object of dcterms:relation). The intermediate node between the distribution of dataset B and dataset A has a property cdc:hadDistributionRole pointing to cdc:complementLink. 
+
+When the dataset B is the result of both additions and deletions on dataset A, dataset B should have a direct distribution with two subdistributions (cdc:hasSubDistribution): one containing triples to be deleted (cdc:DeletetionDistribution) from the source dataset and another containing triples that should be added (cdc:AdditionDistribution) to the source dataset. The qualified relation described above is established between the direct distribution of dataset B and dataset A .</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/cdc">https://w3id.org/cdc</a>
+         </dd>
+      </dl>
+      <dl>
+         <dt>Term status</dt>
+         <dd>unstable</dd>
+      </dl>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#DistributionRole" title="https://w3id.org/cdc#DistributionRole">distribution role</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="copiedDistributionLink">
+      <h3>copied distribution of link<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/cdc#copiedDistributionLink</p>
+      <div class="comment">
+         <span class="markdown">By connecting this node to a cdc:DistributionRelation instance, the source distribution (subject of cdc:qualifiedDistributionRelation) is marked as a copy of the target distribution (object of dcterms:relation).</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/cdc">https://w3id.org/cdc</a>
+         </dd>
+      </dl>
+      <dl>
+         <dt>Term status</dt>
+         <dd>unstable</dd>
+      </dl>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#DistributionRole" title="https://w3id.org/cdc#DistributionRole">distribution role</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="incoming">
+      <h3>incoming<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/cdc#incoming</p>
+      <div class="comment">
+         <span class="markdown">A predefined tag to mark an incoming catalog, dataset, distribution or data service. It can also be used to annotate qualified relations between DCAT entities.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/cdc">https://w3id.org/cdc</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#DataManagementTag" title="https://w3id.org/cdc#DataManagementTag">data management tag</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="internal">
+      <h3>internal<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/cdc#internal</p>
+      <div class="comment">
+         <span class="markdown">A predefined tag to mark an internal (= not exchanged) catalog, dataset, distribution or data service. It can also be used to annotate qualified relations between DCAT entities.{</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/cdc">https://w3id.org/cdc</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#DataManagementTag" title="https://w3id.org/cdc#DataManagementTag">data management tag</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="outgoing">
+      <h3>outgoing<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/cdc#outgoing</p>
+      <div class="comment">
+         <span class="markdown">A predefined tag to mark an outgoing catalog, dataset, distribution or data service. It can also be used to annotate qualified relations between DCAT entities.{</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/cdc">https://w3id.org/cdc</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#DataManagementTag" title="https://w3id.org/cdc#DataManagementTag">data management tag</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="requirementLink">
+      <h3>requirement link<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/cdc#requirementLink</p>
+      <div class="comment">
+         <span class="markdown">A role of a qualified relation between two datasets A and B. Dataset A has an outgoing dcat:qualifiedRelation property to an intermediate node that has an outgoing dcterms:relation property to dataset B. The intermediate node is connected using dcat:hadRole to cdc:requirementLink. The proposal contained in the source dataset (e.g. a cdc:DesignDS or a cdc:AsBuiltDS after delivery) tries to answer the requirements contained in the target dataset (e.g. respectively a cdc:OwnerRequirementsDS, and a cdc:OwnerRequirementsDS or a cdc:DesignDS).</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/cdc">https://w3id.org/cdc</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#http://www.w3.org/ns/dcat#Role" title="http://www.w3.org/ns/dcat#Role">role</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="standaloneLink">
+      <h3>standalone link<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/cdc#standaloneLink</p>
+      <div class="comment">
+         <span class="markdown">A role of a qualified relation between a standalone distribution (cdc:StandaloneDistribution) and a complementing distribution (cdc:AdditionDistribution, cdc:DeletionDistribution or cdc:AdditionAndDeletionDistribution) of the same dataset.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/cdc">https://w3id.org/cdc</a>
+         </dd>
+      </dl>
+      <dl>
+         <dt>Term status</dt>
+         <dd>unstable</dd>
+      </dl>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#DistributionRole" title="https://w3id.org/cdc#DistributionRole">distribution role</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+</div><div id="legend">
+<h2>Legend <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<div   class="entity">
+<sup class="type-c" title="Classes">c</sup>: Classes <br/>
+<sup class="type-op" title="Object Properties">op</sup>: Object Properties <br/>
+<sup class="type-dp" title="Data Properties">dp</sup>: Data Properties <br/>
+<sup class="type-ni" title="Named Individuals">ni</sup>: Named Individuals
+</div>
+</div>

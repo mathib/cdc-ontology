@@ -1,0 +1,1856 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en", "undefined" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://purl.org/vocommons/voaf", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema", "https://w3id.org/cdc", "http://www.w3.org/ns/dcat", "http://www.w3.org/2006/vcard/ns" ],
+    "title" : {
+      "en" : "CDC: Construction Dataset Context ontology"
+    },
+    "iri" : "https://w3id.org/cdc",
+    "version" : "0.0.1",
+    "author" : [ "_:genid2147483648" ],
+    "description" : {
+      "en" : "The Construction Dataset Context (CDC) ontology is an extension of DCAT v2.0, a W3C Recommendation ontology for describing (RDF and non-RDF) datasets published on the Web.  Using this extension, it becomes possible to describe a context for construction-related datasets that are being distributed using Web technology as well as datasets that are not shared outside an organization such as local copies, work in progress and other datasets that remain internal. This dataset metadata encompasses the temporal context (period or snapshot), the type of content of the dataset (as-built, design, etc.) and relations between contextualized datasets (previous as-built, requirements related to a design, etc.). In addition, this DCAT extension also provides terminology for managing dataset distributions that are scoped to a certain (named or default) graph of an RDF file or quadstore."
+    },
+    "comments" : {
+      "en" : "- Version 0.0.1: initial version"
+    },
+    "other" : {
+      "license" : [ {
+        "identifier" : "license",
+        "language" : "undefined",
+        "value" : "https://creativecommons.org/licenses/by/4.0/",
+        "type" : "iri"
+      } ],
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "_:genid2147483648",
+        "type" : "label"
+      } ],
+      "preferredNamespacePrefix" : [ {
+        "identifier" : "preferredNamespacePrefix",
+        "language" : "undefined",
+        "value" : "cdc",
+        "type" : "label"
+      } ],
+      "versionInfo" : [ {
+        "identifier" : "versionInfo",
+        "language" : "undefined",
+        "value" : "0.0.1",
+        "type" : "label"
+      } ],
+      "preferredNamespaceUri" : [ {
+        "identifier" : "preferredNamespaceUri",
+        "language" : "undefined",
+        "value" : "https://w3id.org/cdc#",
+        "type" : "label"
+      } ],
+      "title" : [ {
+        "identifier" : "title",
+        "language" : "en",
+        "value" : "CDC: Construction Dataset Context ontology",
+        "type" : "label"
+      } ],
+      "issued" : [ {
+        "identifier" : "issued",
+        "language" : "undefined",
+        "value" : "2020-12-18",
+        "type" : "label"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "0",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "19",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "22",
+    "type" : "owl:Class"
+  }, {
+    "id" : "28",
+    "type" : "owl:Class"
+  }, {
+    "id" : "41",
+    "type" : "owl:Class"
+  }, {
+    "id" : "39",
+    "type" : "owl:Class"
+  }, {
+    "id" : "42",
+    "type" : "owl:Class"
+  }, {
+    "id" : "43",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "44",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "45",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "46",
+    "type" : "owl:Class"
+  }, {
+    "id" : "17",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "48",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "49",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "52",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "56",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "31",
+    "type" : "owl:Class"
+  }, {
+    "id" : "77",
+    "type" : "owl:Class"
+  }, {
+    "id" : "32",
+    "type" : "owl:Class"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "40",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "70",
+    "type" : "owl:Class"
+  }, {
+    "id" : "33",
+    "type" : "owl:Class"
+  }, {
+    "id" : "79",
+    "type" : "owl:Class"
+  }, {
+    "id" : "25",
+    "type" : "owl:Class"
+  }, {
+    "id" : "76",
+    "type" : "owl:Class"
+  }, {
+    "id" : "34",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "https://w3id.org/cdc#OwnerRequirementsDS",
+    "baseIri" : "https://w3id.org/cdc",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/cdc",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "OwnerRequirementsDS",
+      "en" : "owner requirements dataset"
+    },
+    "comment" : {
+      "en" : "A dataset describing the requirements imposed by the construction owner at the start of a construction project. Such a dataset, when using RDF, can for example be described using SHACL shapes or a graph describing the components and spatial zones (and their properties) that should be provided in the delivered construction."
+    },
+    "id" : "0",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://w3id.org/cdc#StructuralDesignDS",
+    "baseIri" : "https://w3id.org/cdc",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/cdc",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "StructuralDesignDS",
+      "en" : "structural design dataset"
+    },
+    "comment" : {
+      "en" : "A dataset describing a (part of a) planned construction that is the result of a structural engineering design process."
+    },
+    "id" : "4",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.w3.org/2006/vcard/ns#Organization",
+    "baseIri" : "http://www.w3.org/2006/vcard/ns",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Organization"
+    },
+    "attributes" : [ "external" ],
+    "id" : "9"
+  }, {
+    "iri" : "https://w3id.org/cdc#DeletionDistribution",
+    "baseIri" : "https://w3id.org/cdc",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/cdc",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "DeletionDistribution",
+      "en" : "deletion distribution (complement)"
+    },
+    "comment" : {
+      "en" : "A cdc:DeletionDistribution is used to classify a distribution of a dataset B that complements another dataset A (connected using the cdc:complements relation). The content of the deletion complement distribution of dataset B should be subtracted from the entire content of dataset A to form dataset B. When the dataset B is the result of both additions and deletions on dataset A, dataset B should have a direct distribution with two subdistributions (cdc:hasSubDistribution): one containing triples to be deleted (cdc:DeletetionDistribution) from the source dataset and another containing triples that should be added (cdc:AdditionDistribution) to the source dataset."
+    },
+    "id" : "13",
+    "superClasses" : [ "14" ]
+  }, {
+    "iri" : "https://w3id.org/cdc#StandaloneDistribution",
+    "baseIri" : "https://w3id.org/cdc",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/cdc",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "StandaloneDistribution",
+      "en" : "standalone distribution"
+    },
+    "comment" : {
+      "en" : "A cdc:StandaloneDistribution is applied to classify a distribution as being standalone, meaning that it does not complement to the content of another dataset. Consequently, the content served by this distribution is equal to the entire content represented by its dataset. If a standalone distribution is derived from a complementing distribution of the same dataset, it can be connected using the cdc:standaloneOf relation."
+    },
+    "id" : "19",
+    "superClasses" : [ "14" ]
+  }, {
+    "iri" : "https://w3id.org/cdc#ConstructionProgressDS",
+    "baseIri" : "https://w3id.org/cdc",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/cdc",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ConstructionProgressDS",
+      "en" : "construction progress dataset"
+    },
+    "comment" : {
+      "en" : "A construction progress dataset, maintained by a construction site supervisor selected by the owner (e.g. the architect) or a contractor. This type of dataset contains construction tasks (cto:Task) that are already executed. It can be used on a dataset already classified as cdc:ContemporaryAsBuiltDS (during construction progress monitoring of a running or relatively recent project) or cdc:HistoricalAsBuiltDS (for describing the results of a historical study regarding the construction process)."
+    },
+    "id" : "7",
+    "superClasses" : [ "8" ]
+  }, {
+    "iri" : "http://www.w3.org/ns/dcat#Relation",
+    "baseIri" : "http://www.w3.org/ns/dcat",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Relation"
+    },
+    "attributes" : [ "external" ],
+    "id" : "11"
+  }, {
+    "iri" : "https://w3id.org/cdc#ValidationReport",
+    "baseIri" : "https://w3id.org/cdc",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/cdc",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ValidationReport",
+      "en" : "validation report"
+    },
+    "comment" : {
+      "en" : "An instance of this class is used to describe the result of a comparison between a design, a construction planning or a finalized as-built dataset and a dataset with requirements it tries to fulfill. The validation report node can be equal to the top node of a SHACL validation report RDF graph (e.g. owner requirements vs. design), or it can point to either two RDF datasets (cdc:onlyInSourceDS or cdc:onlyInTargetDS) containing the result of a subtraction (e.g. design vs. as-built) or a free text explanation of the comparison result (rdfs:comment)."
+    },
+    "id" : "3"
+  }, {
+    "iri" : "https://w3id.org/cdc#DesignDS",
+    "baseIri" : "https://w3id.org/cdc",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/cdc",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "DesignDS",
+      "en" : "design dataset"
+    },
+    "subClasses" : [ "4", "32", "31", "33", "34" ],
+    "comment" : {
+      "en" : "In contrast to an as-built dataset (cdc:AsBuiltDS), this type of construction dataset describes a future situation that is the outcome of some type of design process. Use its subclasses to be more specific about the type of design/planning."
+    },
+    "id" : "5",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://w3id.org/cdc#DefaultGraphDistribution",
+    "baseIri" : "https://w3id.org/cdc",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/cdc",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "DefaultGraphDistribution",
+      "en" : "default graph distribution"
+    },
+    "comment" : {
+      "en" : "A DCAT distribution of an RDF dataset, where the content of the dataset can be found in the default graph of an RDF quad file (connected with dcat:downloadURL) or quadstore (connected with dcat:accessService)."
+    },
+    "id" : "22",
+    "superClasses" : [ "14" ]
+  }, {
+    "iri" : "https://w3id.org/cdc#AdditionDistribution",
+    "baseIri" : "https://w3id.org/cdc",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/cdc",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "AdditionDistribution",
+      "en" : "addition distribution (complement)"
+    },
+    "comment" : {
+      "en" : "A cdc:AdditionDistribution is used to classify a distribution of a dataset B that complements another dataset A (connected using the cdc:complements relation). The content of the addition complement distribution of dataset B should be added to the entire content of dataset A to form dataset B. When the dataset B is the result of both additions and deletions on dataset A, dataset B should have a direct distribution with two subdistributions (cdc:hasSubDistribution): one containing triples to be deleted (cdc:DeletetionDistribution) from the source dataset and another containing triples that should be added (cdc:AdditionDistribution) to the source dataset."
+    },
+    "id" : "28",
+    "superClasses" : [ "14" ]
+  }, {
+    "iri" : "https://w3id.org/cdc#ContemporaryAsBuiltDS",
+    "baseIri" : "https://w3id.org/cdc",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/cdc",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ContemporaryAsBuiltDS",
+      "en" : "contemporary as-built dataset"
+    },
+    "comment" : {
+      "en" : "A contemporary as-built dataset depicts the construction as-is based on directly verifiable facts (e.g. a geometry survey). It typically forms the basis for managing maintenance information or construction progress monitoring. It can also be the starting point for a construction project."
+    },
+    "id" : "41",
+    "superClasses" : [ "8" ]
+  }, {
+    "iri" : "https://w3id.org/cdc#DistributionRelation",
+    "baseIri" : "https://w3id.org/cdc",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/cdc",
+        "type" : "iri"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "unstable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "DistributionRelation",
+      "en" : "distribution relation"
+    },
+    "comment" : {
+      "en" : "An instance of this class represents a qualified relation from a dataset distribution to another DCAT entity. It is connected to a cdc:DistributionRole instance via cdc:hadDistributionRole."
+    },
+    "id" : "39"
+  }, {
+    "iri" : "http://www.w3.org/ns/dcat#Catalog",
+    "baseIri" : "http://www.w3.org/ns/dcat",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Catalog"
+    },
+    "attributes" : [ "external" ],
+    "id" : "42"
+  }, {
+    "iri" : "http://www.w3.org/2006/vcard/ns#Individual",
+    "baseIri" : "http://www.w3.org/2006/vcard/ns",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Individual"
+    },
+    "attributes" : [ "external" ],
+    "id" : "43"
+  }, {
+    "iri" : "https://w3id.org/cdc#NamedGraphDistribution",
+    "baseIri" : "https://w3id.org/cdc",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/cdc",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "NamedGraphDistribution",
+      "en" : "named graph distribution"
+    },
+    "comment" : {
+      "en" : "A DCAT distribution of an RDF dataset, where the content of the dataset can be found in a single named graph (specified using cdc:graphURI) of an RDF quad file (connected with dcat:downloadURL) or quadstore (connected with dcat:accessService)."
+    },
+    "id" : "16",
+    "superClasses" : [ "14" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "44",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "45",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/ns/dcat#Role",
+    "baseIri" : "http://www.w3.org/ns/dcat",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Role"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/cdc#requirementLink",
+      "baseIri" : "https://w3id.org/cdc",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "https://w3id.org/cdc",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "A role of a qualified relation between two datasets A and B. Dataset A has an outgoing dcat:qualifiedRelation property to an intermediate node that has an outgoing dcterms:relation property to dataset B. The intermediate node is connected using dcat:hadRole to cdc:requirementLink. The proposal contained in the source dataset (e.g. a cdc:DesignDS or a cdc:AsBuiltDS after delivery) tries to answer the requirements contained in the target dataset (e.g. respectively a cdc:OwnerRequirementsDS, and a cdc:OwnerRequirementsDS or a cdc:DesignDS)."
+      },
+      "labels" : {
+        "IRI-based" : "requirementLink",
+        "en" : "requirement link"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "46"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "17",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "48",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "49",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "52",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://purl.org/vocommons/voaf#Vocabulary",
+    "baseIri" : "http://purl.org/vocommons/voaf",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Vocabulary"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/cdc",
+      "baseIri" : "https://w3id.org",
+      "labels" : {
+        "IRI-based" : "cdc"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "56"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "12",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/ns/dcat#Distribution",
+    "baseIri" : "http://www.w3.org/ns/dcat",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Distribution"
+    },
+    "subClasses" : [ "25", "19", "16", "28", "22", "13" ],
+    "attributes" : [ "external" ],
+    "id" : "14"
+  }, {
+    "iri" : "https://w3id.org/cdc#InspectionPlanningDS",
+    "baseIri" : "https://w3id.org/cdc",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/cdc",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "InspectionPlanningDS",
+      "en" : "inspection planning dataset"
+    },
+    "comment" : {
+      "en" : "An inspection planning dataset, made by a construction inspector. This type of dataset typically contains inspection tasks (cto:InspectionTask, subclasses of cto:Task) that are planned, indicating which parts of the construction will be inspected."
+    },
+    "id" : "31",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.w3.org/ns/dcat#DataService",
+    "baseIri" : "http://www.w3.org/ns/dcat",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DataService"
+    },
+    "attributes" : [ "external" ],
+    "id" : "77"
+  }, {
+    "iri" : "https://w3id.org/cdc#ConstructionPlanningDS",
+    "baseIri" : "https://w3id.org/cdc",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/cdc",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ConstructionPlanningDS",
+      "en" : "construction planning dataset"
+    },
+    "comment" : {
+      "en" : "A construction planning dataset, made by a designer or contractor. This type of dataset typically contains construction tasks (cto:Task) that are planned."
+    },
+    "id" : "32",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "https://w3id.org/cdc#AsBuiltDS",
+    "baseIri" : "https://w3id.org/cdc",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/cdc",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "AsBuiltDS",
+      "en" : "as-built dataset"
+    },
+    "subClasses" : [ "7", "41", "70", "79" ],
+    "comment" : {
+      "en" : "A construction dataset reflecting the physical as-built situation at a certain moment in time (snapshot or a period of time), e.g. before an intervention, during an intervention (progress monitoring) or after an intervention. Use its subclasses to be more specific about the type of as-built situation."
+    },
+    "id" : "8",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://w3id.org/cdc#DistributionRole",
+    "baseIri" : "https://w3id.org/cdc",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/cdc",
+        "type" : "iri"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "unstable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "DistributionRole",
+      "en" : "distribution role"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/cdc#complementLink",
+      "baseIri" : "https://w3id.org/cdc",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "https://w3id.org/cdc",
+          "type" : "iri"
+        } ],
+        "term_status" : [ {
+          "identifier" : "term_status",
+          "language" : "undefined",
+          "value" : "unstable",
+          "type" : "label"
+        } ]
+      },
+      "comment" : {
+        "en" : "A role of a qualified relation between a distribution of a dataset B that complements another dataset A, where the source distribution (subject of cdc:qualifiedDistributionRelation) complements the target dataset (object of dcterms:relation). The intermediate node between the distribution of dataset B and dataset A has a property cdc:hadDistributionRole pointing to cdc:complementLink. \r\n\r\nWhen the dataset B is the result of both additions and deletions on dataset A, dataset B should have a direct distribution with two subdistributions (cdc:hasSubDistribution): one containing triples to be deleted (cdc:DeletetionDistribution) from the source dataset and another containing triples that should be added (cdc:AdditionDistribution) to the source dataset. The qualified relation described above is established between the direct distribution of dataset B and dataset A ."
+      },
+      "labels" : {
+        "IRI-based" : "complementLink",
+        "en" : "complement link"
+      }
+    }, {
+      "iri" : "https://w3id.org/cdc#standaloneLink",
+      "baseIri" : "https://w3id.org/cdc",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "https://w3id.org/cdc",
+          "type" : "iri"
+        } ],
+        "term_status" : [ {
+          "identifier" : "term_status",
+          "language" : "undefined",
+          "value" : "unstable",
+          "type" : "label"
+        } ]
+      },
+      "comment" : {
+        "en" : "A role of a qualified relation between a standalone distribution (cdc:StandaloneDistribution) and a complementing distribution (cdc:AdditionDistribution, cdc:DeletionDistribution or cdc:AdditionAndDeletionDistribution) of the same dataset."
+      },
+      "labels" : {
+        "IRI-based" : "standaloneLink",
+        "en" : "standalone link"
+      }
+    }, {
+      "iri" : "https://w3id.org/cdc#copiedDistributionLink",
+      "baseIri" : "https://w3id.org/cdc",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "https://w3id.org/cdc",
+          "type" : "iri"
+        } ],
+        "term_status" : [ {
+          "identifier" : "term_status",
+          "language" : "undefined",
+          "value" : "unstable",
+          "type" : "label"
+        } ]
+      },
+      "comment" : {
+        "en" : "By connecting this node to a cdc:DistributionRelation instance, the source distribution (subject of cdc:qualifiedDistributionRelation) is marked as a copy of the target distribution (object of dcterms:relation)."
+      },
+      "labels" : {
+        "IRI-based" : "copiedDistributionLink",
+        "en" : "copied distribution of link"
+      }
+    } ],
+    "comment" : {
+      "en" : "A distribution role defines the kind of qualified relation between two dataset distributions."
+    },
+    "id" : "40"
+  }, {
+    "iri" : "http://www.w3.org/ns/dcat#Dataset",
+    "baseIri" : "http://www.w3.org/ns/dcat",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Dataset"
+    },
+    "subClasses" : [ "0", "8", "5" ],
+    "attributes" : [ "external" ],
+    "id" : "1"
+  }, {
+    "iri" : "https://w3id.org/cdc#HistoricalAsBuiltDS",
+    "baseIri" : "https://w3id.org/cdc",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/cdc",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "HistoricalAsBuiltDS",
+      "en" : "historical as-built dataset"
+    },
+    "comment" : {
+      "en" : "A historical as-built dataset contains a description of a construction in the past based on historical research."
+    },
+    "id" : "70",
+    "superClasses" : [ "8" ]
+  }, {
+    "iri" : "https://w3id.org/cdc#MEPDesignDS",
+    "baseIri" : "https://w3id.org/cdc",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/cdc",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "MEPDesignDS",
+      "en" : "MEP design dataset"
+    },
+    "comment" : {
+      "en" : "A dataset describing a (part of a) planned construction that is the result of a MEP engineering (mechanical, electrical and plumbing) design process."
+    },
+    "id" : "33",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "https://w3id.org/cdc#InspectionAsBuiltDS",
+    "baseIri" : "https://w3id.org/cdc",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/cdc",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "InspectionAsBuiltDS",
+      "en" : "inspection as-built dataset"
+    },
+    "comment" : {
+      "en" : "An inspection as-built dataset, created by a construction inspector. This type of dataset contains detailed information about inspections, including inspection tasks (cto:InspectionTask) that are already executed. It can be used on a dataset already classified as cdc:ContemporaryAsBuiltDS."
+    },
+    "id" : "79",
+    "superClasses" : [ "8" ]
+  }, {
+    "iri" : "https://w3id.org/cdc#AdditionAndDeletionDistribution",
+    "baseIri" : "https://w3id.org/cdc",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/cdc",
+        "type" : "iri"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "unstable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "AdditionAndDeletionDistribution",
+      "en" : "addition and deletion distribution (complement)"
+    },
+    "comment" : {
+      "en" : "A cdc:AdditionAndDeletionDistribution is used to classify a distribution of a dataset B that complements another dataset A (connected using the cdc:complements relation). One of the two subdistributions (cdc:hasSubDistribution) of this direct distribution of dataset B is classified as cdc:AdditionDistribution, while the other is classified as cdc:DeletionDistribution."
+    },
+    "id" : "25",
+    "superClasses" : [ "14" ]
+  }, {
+    "iri" : "https://w3id.org/cdc#DataManagementTag",
+    "baseIri" : "https://w3id.org/cdc",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/cdc",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "DataManagementTag",
+      "en" : "data management tag"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/cdc#internal",
+      "baseIri" : "https://w3id.org/cdc",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "https://w3id.org/cdc",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "A predefined tag to mark an internal (= not exchanged) catalog, dataset, distribution or data service. It can also be used to annotate qualified relations between DCAT entities.{"
+      },
+      "labels" : {
+        "IRI-based" : "internal",
+        "en" : "internal"
+      }
+    }, {
+      "iri" : "https://w3id.org/cdc#incoming",
+      "baseIri" : "https://w3id.org/cdc",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "https://w3id.org/cdc",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "A predefined tag to mark an incoming catalog, dataset, distribution or data service. It can also be used to annotate qualified relations between DCAT entities."
+      },
+      "labels" : {
+        "IRI-based" : "incoming",
+        "en" : "incoming"
+      }
+    }, {
+      "iri" : "https://w3id.org/cdc#outgoing",
+      "baseIri" : "https://w3id.org/cdc",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "https://w3id.org/cdc",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "A predefined tag to mark an outgoing catalog, dataset, distribution or data service. It can also be used to annotate qualified relations between DCAT entities.{"
+      },
+      "labels" : {
+        "IRI-based" : "outgoing",
+        "en" : "outgoing"
+      }
+    } ],
+    "comment" : {
+      "en" : "A tag that is linked to a DCAT catalog, dataset, distribution or data service instance node using the cdc:hasDataManagementTag property. CDC predefines three instances of this class, i.e. cdc:incoming, cdc:internal and cdc:outgoing. Each catalog, dataset, distribution or data service can only have one tag that is not supposed to change over the lifetime of the described resource unless it considers a dataset (that is not a catalog). When necessary, qualified relations between DCAT entities can also get a tag."
+    },
+    "id" : "76"
+  }, {
+    "iri" : "https://w3id.org/cdc#ArchitecturalDesignDS",
+    "baseIri" : "https://w3id.org/cdc",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/cdc",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ArchitecturalDesignDS",
+      "en" : "architectural design dataset"
+    },
+    "comment" : {
+      "en" : "A dataset describing a (part of a) planned construction that is the result of an architectural design process."
+    },
+    "id" : "34",
+    "superClasses" : [ "5" ]
+  } ],
+  "property" : [ {
+    "id" : "2",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "6",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "10",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "15",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "18",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "20",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "21",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "23",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "24",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "26",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "27",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "29",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "30",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "35",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "36",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "37",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "38",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "47",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "50",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "51",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "53",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "54",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "55",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "57",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "58",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "59",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "60",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "61",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "62",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "63",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "64",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "65",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "66",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "67",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "68",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "69",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "71",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "72",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "73",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "74",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "75",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "78",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "80",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "81",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "82",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "83",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "84",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "85",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "86",
+    "type" : "rdfs:SubClassOf"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "https://w3id.org/cdc#onlyInSourceDS",
+    "baseIri" : "https://w3id.org/cdc",
+    "range" : "1",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/cdc",
+        "type" : "iri"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "unstable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "onlyInSourceDS",
+      "en" : "only in source dataset"
+    },
+    "domain" : "3",
+    "comment" : {
+      "en" : "When the validation is done by comparing a descriptive RDF dataset A (source) containing the proposed design or executed construction to an RDF dataset B (target) containing the requirements, a diff is calculated between the two datasets. The triples that are only available in dataset A should be contained in a dataset that is connected using this property."
+    },
+    "attributes" : [ "object" ],
+    "id" : "2"
+  }, {
+    "range" : "8",
+    "domain" : "7",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "6"
+  }, {
+    "iri" : "https://w3id.org/cdc#fulfilsRequirements",
+    "baseIri" : "https://w3id.org/cdc",
+    "range" : "12",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/cdc",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "fulfilsRequirements",
+      "en" : "fulfils requirements"
+    },
+    "domain" : "11",
+    "comment" : {
+      "en" : "A Boolean property to assert if a certain set of requirements contained in a dataset is fulfilled by another dataset. It should only be used on instances of dcat:Relation with a dcat:hadRole property pointing to cdc:requirementLink."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "10"
+  }, {
+    "iri" : "https://w3id.org/cdc#graphURI",
+    "baseIri" : "https://w3id.org/cdc",
+    "range" : "17",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/cdc",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "graphURI",
+      "en" : "a (named) graph URI"
+    },
+    "domain" : "16",
+    "comment" : {
+      "en" : "The URI of the named graph related to a cdc:NamedGraphDistribution."
+    },
+    "attributes" : [ "object" ],
+    "id" : "15"
+  }, {
+    "iri" : "https://w3id.org/cdc#snapshotOf",
+    "baseIri" : "https://w3id.org/cdc",
+    "range" : "1",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/cdc",
+        "type" : "iri"
+      } ],
+      "rangeIncludes" : [ {
+        "identifier" : "rangeIncludes",
+        "language" : "undefined",
+        "value" : "https://w3id.org/cdc#AsBuiltDS",
+        "type" : "iri"
+      }, {
+        "identifier" : "rangeIncludes",
+        "language" : "undefined",
+        "value" : "https://w3id.org/cdc#DesignDS",
+        "type" : "iri"
+      } ],
+      "domainIncludes" : [ {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "https://w3id.org/cdc#DesignDS",
+        "type" : "iri"
+      }, {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "https://w3id.org/cdc#AsBuiltDS",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "snapshotOf",
+      "en" : "snapshot dataset of"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "A property to directly connect a snapshot dataset (temporal context represents a single moment, dcat:startDate and dcat:endDate are equal to each other) to a dataset that contains tasks (temporal context represents a period)."
+    },
+    "attributes" : [ "object" ],
+    "id" : "18"
+  }, {
+    "range" : "14",
+    "domain" : "13",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "20"
+  }, {
+    "range" : "14",
+    "domain" : "22",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "21"
+  }, {
+    "range" : "14",
+    "domain" : "19",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "23"
+  }, {
+    "range" : "14",
+    "domain" : "25",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "24"
+  }, {
+    "iri" : "https://w3id.org/cdc#onlyInTargetDS",
+    "baseIri" : "https://w3id.org/cdc",
+    "range" : "1",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/cdc",
+        "type" : "iri"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "unstable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "onlyInTargetDS",
+      "en" : "only in target dataset "
+    },
+    "domain" : "3",
+    "comment" : {
+      "en" : "When the validation is done by comparing a descriptive RDF dataset A (source) containing the proposed design or executed construction to an RDF dataset B (target) containing the requirements, a diff is calculated between the two datasets. The triples that are only available in dataset B should be contained in a dataset that is connected using this property."
+    },
+    "attributes" : [ "object" ],
+    "id" : "26"
+  }, {
+    "range" : "14",
+    "domain" : "28",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "27"
+  }, {
+    "range" : "14",
+    "domain" : "16",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "29"
+  }, {
+    "range" : "5",
+    "domain" : "31",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "30"
+  }, {
+    "range" : "5",
+    "domain" : "32",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "35"
+  }, {
+    "range" : "5",
+    "domain" : "34",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "36"
+  }, {
+    "range" : "5",
+    "domain" : "33",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "37"
+  }, {
+    "iri" : "https://w3id.org/cdc#hadDistributionRole",
+    "baseIri" : "https://w3id.org/cdc",
+    "range" : "40",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/cdc",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hadDistributionRole",
+      "en" : "had distribution role"
+    },
+    "domain" : "39",
+    "comment" : {
+      "en" : "A property to connect an instance of cdc:DistributionRelation to an instance of cdc:DistributionRole. The object of this property defines the type of the qualified distribution relation (cdc:qualifiedDistributionRelation) between a source distribution and another target DCAT entity."
+    },
+    "attributes" : [ "object" ],
+    "id" : "38"
+  }, {
+    "iri" : "https://w3id.org/cdc#versionTargetDS",
+    "baseIri" : "https://w3id.org/cdc",
+    "range" : "49",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/cdc",
+        "type" : "iri"
+      } ],
+      "rangeIncludes" : [ {
+        "identifier" : "rangeIncludes",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "iri"
+      }, {
+        "identifier" : "rangeIncludes",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2001/XMLSchema#string",
+        "type" : "iri"
+      } ],
+      "domainIncludes" : [ {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/dcat#Relation",
+        "type" : "iri"
+      }, {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "https://w3id.org/cdc#DistributionRelation",
+        "type" : "iri"
+      }, {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/dcat#Distribution",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "versionTargetDS",
+      "en" : "version of target dataset"
+    },
+    "domain" : "48",
+    "comment" : {
+      "en" : "Connects a qualified relation between datasets (instance of dcat:Relation) and/or distributions of a dataset (instance of cdc:DistributionRelation) with a version identifier of the target dataset or the dataset served by the target distribution. The dataset version can be identified via a dateTime or a string identifier."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "47"
+  }, {
+    "range" : "5",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "50"
+  }, {
+    "iri" : "https://w3id.org/cdc#complements",
+    "baseIri" : "https://w3id.org/cdc",
+    "range" : "1",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/cdc",
+        "type" : "iri"
+      } ],
+      "domainIncludes" : [ {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "https://w3id.org/cdc#AdditionAndDeletionDistribution",
+        "type" : "iri"
+      }, {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "https://w3id.org/cdc#AdditionDistribution",
+        "type" : "iri"
+      }, {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "https://w3id.org/cdc#DeletionDistribution",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "complements",
+      "en" : "complements"
+    },
+    "domain" : "14",
+    "comment" : {
+      "en" : "A property to directly connect a snapshot dataset (temporal context represents a single moment, dcat:startDate and dcat:endDate are equal to each other) to a dataset that contains tasks (temporal context represents a period)."
+    },
+    "attributes" : [ "object" ],
+    "id" : "51"
+  }, {
+    "iri" : "https://w3id.org/cdc#hasValidationReport",
+    "baseIri" : "https://w3id.org/cdc",
+    "range" : "3",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/cdc",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasValidationReport",
+      "en" : "has validation report"
+    },
+    "domain" : "11",
+    "comment" : {
+      "en" : "A property connecting a qualified relation between two datasets (instance of dcat:Relation) with cdc:requirementLink as role to a node representing the validation report (instance of cdc:ValidationReport)."
+    },
+    "attributes" : [ "object" ],
+    "id" : "53"
+  }, {
+    "iri" : "https://w3id.org/cdc#distributedDatasetVersion",
+    "baseIri" : "https://w3id.org/cdc",
+    "range" : "45",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/cdc",
+        "type" : "iri"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "unstable",
+        "type" : "label"
+      } ],
+      "rangeIncludes" : [ {
+        "identifier" : "rangeIncludes",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2001/XMLSchema#string",
+        "type" : "iri"
+      }, {
+        "identifier" : "rangeIncludes",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "distributedDatasetVersion",
+      "en" : "distributed dataset version"
+    },
+    "domain" : "14",
+    "comment" : {
+      "en" : "Connects a distribution to the version of the dataset it distributes. The dataset version can be identified via a dateTime or a string identifier."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "54"
+  }, {
+    "range" : "19",
+    "domain" : "13",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "55"
+  }, {
+    "iri" : "https://w3id.org/cdc#versionSourceDS",
+    "baseIri" : "https://w3id.org/cdc",
+    "range" : "44",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/cdc",
+        "type" : "iri"
+      } ],
+      "rangeIncludes" : [ {
+        "identifier" : "rangeIncludes",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2001/XMLSchema#string",
+        "type" : "iri"
+      }, {
+        "identifier" : "rangeIncludes",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "iri"
+      } ],
+      "domainIncludes" : [ {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/dcat#Relation",
+        "type" : "iri"
+      }, {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "https://w3id.org/cdc#DistributionRelation",
+        "type" : "iri"
+      }, {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/dcat#Distribution",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "versionSourceDS",
+      "en" : "version of source dataset"
+    },
+    "domain" : "48",
+    "comment" : {
+      "en" : "Connects a qualified relation between datasets (instance of dcat:Relation) and/or distributions of a dataset (instance of cdc:DistributionRelation) with a version identifier of the source dataset or the dataset served by the source distribution. The dataset version can be identified via a dateTime or a string identifier."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "57"
+  }, {
+    "range" : "0",
+    "domain" : "5",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "58"
+  }, {
+    "iri" : "http://www.w3.org/ns/dcat#qualifiedRelation",
+    "baseIri" : "http://www.w3.org/ns/dcat",
+    "range" : "48",
+    "label" : {
+      "IRI-based" : "qualifiedRelation"
+    },
+    "domain" : "48",
+    "attributes" : [ "object", "external" ],
+    "id" : "59"
+  }, {
+    "iri" : "https://w3id.org/cdc#qualifiedDistributionRelation",
+    "baseIri" : "https://w3id.org/cdc",
+    "range" : "39",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/cdc",
+        "type" : "iri"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "unstable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "qualifiedDistributionRelation",
+      "en" : "a qualified distribution relation "
+    },
+    "domain" : "14",
+    "comment" : {
+      "en" : "A property to connect a source distribution to an instance of cdc:DistributionRelation, to form a qualified relation towards another DCAT entity."
+    },
+    "attributes" : [ "object" ],
+    "id" : "60"
+  }, {
+    "iri" : "https://w3id.org/cdc#alternative",
+    "baseIri" : "https://w3id.org/cdc",
+    "range" : "1",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/cdc",
+        "type" : "iri"
+      } ],
+      "rangeIncludes" : [ {
+        "identifier" : "rangeIncludes",
+        "language" : "undefined",
+        "value" : "https://w3id.org/cdc#HistoricalAsBuiltDS",
+        "type" : "iri"
+      }, {
+        "identifier" : "rangeIncludes",
+        "language" : "undefined",
+        "value" : "https://w3id.org/cdc#DesignDS",
+        "type" : "iri"
+      } ],
+      "domainIncludes" : [ {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "https://w3id.org/cdc#DesignDS",
+        "type" : "iri"
+      }, {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "https://w3id.org/cdc#HistoricalAsBuiltDS",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "alternative",
+      "en" : "alternative"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "A property to directly connect a dataset to another dataset that proposes an alternative for the same construction context. This means that there is an overlap between the contexts of both datasets such as the construction described, the content type (e.g. two alternative designs (cdc:DesignDS) or two historical as built situations based on different sources (cdc:HistoricalAsBuiltDS)) and/or the timing. In the case of two alternative designs, the related owner requirements should be the same. When considering two alternative historical as-built situations, the temporal context should have an overlap."
+    },
+    "attributes" : [ "object", "symmetric" ],
+    "id" : "61"
+  }, {
+    "range" : "28",
+    "domain" : "25",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "62"
+  }, {
+    "range" : "19",
+    "domain" : "25",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "63"
+  }, {
+    "range" : "13",
+    "domain" : "25",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "64"
+  }, {
+    "range" : "13",
+    "domain" : "28",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "65"
+  }, {
+    "range" : "19",
+    "domain" : "28",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "66"
+  }, {
+    "range" : "0",
+    "domain" : "8",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "67"
+  }, {
+    "range" : "5",
+    "domain" : "8",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "68"
+  }, {
+    "range" : "70",
+    "domain" : "41",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "69"
+  }, {
+    "range" : "39",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "71"
+  }, {
+    "range" : "40",
+    "domain" : "46",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "72"
+  }, {
+    "iri" : "https://w3id.org/cdc#hasSubDistribution",
+    "baseIri" : "https://w3id.org/cdc",
+    "range" : "14",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/cdc",
+        "type" : "iri"
+      } ],
+      "rangeIncludes" : [ {
+        "identifier" : "rangeIncludes",
+        "language" : "undefined",
+        "value" : "https://w3id.org/cdc#DeletionDistribution",
+        "type" : "iri"
+      }, {
+        "identifier" : "rangeIncludes",
+        "language" : "undefined",
+        "value" : "https://w3id.org/cdc#AdditionDistribution",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasSubDistribution",
+      "en" : "has sub distribution"
+    },
+    "domain" : "25",
+    "comment" : {
+      "en" : "A property to connect two dcat:Distribution instances of a dataset, where the object node (instance of cdc:AdditionDistribution or cdc:DeletionDistribtion) is the sub distribution of the subject node (instance of class cdc:AdditionAndDeletionDistribution). A subdistribution is only defined when a dataset distribution complenents another dataset and the complement exists of an addition and a deletion part."
+    },
+    "attributes" : [ "object" ],
+    "id" : "73"
+  }, {
+    "iri" : "https://w3id.org/cdc#copiedDistributionOf",
+    "baseIri" : "https://w3id.org/cdc",
+    "range" : "14",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/cdc",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "copiedDistributionOf",
+      "en" : "copied distribution of"
+    },
+    "domain" : "14",
+    "comment" : {
+      "en" : "A property to directly connect two distributions of the same dataset, where the source distribution is a content-wise copy of the target distribution. Examples are a received dataset accompanied by an incoming distribution. The content served by this incoming distribution can be copied to an internal distribution of the same dataset to improve accessability."
+    },
+    "attributes" : [ "object" ],
+    "id" : "74"
+  }, {
+    "iri" : "https://w3id.org/cdc#hasDataManagementTag",
+    "baseIri" : "https://w3id.org/cdc",
+    "range" : "76",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/cdc",
+        "type" : "iri"
+      } ],
+      "domainIncludes" : [ {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/dcat#Relation",
+        "type" : "iri"
+      }, {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/dcat#Distribution",
+        "type" : "iri"
+      }, {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/dcat#Catalog",
+        "type" : "iri"
+      }, {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/dcat#Dataset",
+        "type" : "iri"
+      }, {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/dcat#DataService",
+        "type" : "iri"
+      }, {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "https://w3id.org/cdc#DistributionRelation",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasDataManagementTag",
+      "en" : "has data management tag"
+    },
+    "domain" : "52",
+    "comment" : {
+      "en" : "Connects a DCAT catalog, dataset, distribution, data service or qualified relation (cdc:DistributionRelation or dcat:Relation) to exactly one of the following predefined data management tags: cdc:internal, cdc:incoming or cdc:outgoing."
+    },
+    "attributes" : [ "object" ],
+    "id" : "75"
+  }, {
+    "iri" : "https://w3id.org/cdc#standaloneOf",
+    "baseIri" : "https://w3id.org/cdc",
+    "range" : "14",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/cdc",
+        "type" : "iri"
+      } ],
+      "rangeIncludes" : [ {
+        "identifier" : "rangeIncludes",
+        "language" : "undefined",
+        "value" : "https://w3id.org/cdc#AdditionDistribution",
+        "type" : "iri"
+      }, {
+        "identifier" : "rangeIncludes",
+        "language" : "undefined",
+        "value" : "https://w3id.org/cdc#AdditionAndDeletionDistribution",
+        "type" : "iri"
+      }, {
+        "identifier" : "rangeIncludes",
+        "language" : "undefined",
+        "value" : "https://w3id.org/cdc#DeletionDistribution",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "standaloneOf",
+      "en" : "standalone distribution of"
+    },
+    "domain" : "19",
+    "comment" : {
+      "en" : "A property to directly connect a standalone distribution to a complementing distribution. Both distributions are serving the same dataset."
+    },
+    "attributes" : [ "object" ],
+    "id" : "78"
+  }, {
+    "iri" : "https://w3id.org/cdc#requirementsRelatedTo",
+    "baseIri" : "https://w3id.org/cdc",
+    "range" : "8",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/cdc",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "requirementsRelatedTo",
+      "en" : "requirements related to "
+    },
+    "domain" : "0",
+    "comment" : {
+      "en" : "A direct connection between owner requirements (cdc:OwnerRequirementsDS) and the as-built situation (cdc:AsBuiltDS or subclasses) before the start of a possible intervention."
+    },
+    "attributes" : [ "object" ],
+    "id" : "80"
+  }, {
+    "range" : "1",
+    "domain" : "5",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "81"
+  }, {
+    "range" : "1",
+    "domain" : "8",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "82"
+  }, {
+    "range" : "8",
+    "domain" : "70",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "83"
+  }, {
+    "range" : "8",
+    "domain" : "41",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "84"
+  }, {
+    "range" : "1",
+    "domain" : "0",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "85"
+  }, {
+    "range" : "8",
+    "domain" : "79",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "86"
+  } ]
+}
